@@ -29,7 +29,8 @@ def mapProperties(old, new):
 # TODO: 
   if old.jvmCustomProperties is not None:
     map = {}
-    map['newtestkey'] = 'newtestvalue'
 #   parse the custom properties
+#   Example:
+#   map['newtestkey'] = 'newtestvalue'
     new.setProperty('JavaVirtualMachine_customProperties', map)
 
